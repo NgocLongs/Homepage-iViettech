@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="lập trình, iViettech, đào tạo, chuyên nghiệp, lập trình viên">
+	<title>iViettech-Trung tâm đào tạo Lập trình viên chyên nghiệp</title>
+	<link rel="shortcut icon" href="images/icon_iviettech.png">
+	<link rel="stylesheet" href="css/main.css">
+<!-- 	<script src="js/jquery.min.js"></script>
+	<script src="js/banner.js"></script> -->
+
+</head>
+<body>
+	<header>
+		<div class="container">
+			<section class="logo">
+				<img src="images/logo/logo_iviettech.png" alt="iViettech image">
+			</section>
+			<nav class="nav_menu">
+				<ul>
+					<li id="arrow"><a id="right-border" href="#">Trang chủ</a></li>
+					<li id="display"><a id="right-border" href="#">Các khóa học lập trình</a>
+						<ul>
+							<li><a href="">Chuyên nghiệp</a>
+								<ul id="test_1">
+									<li><a href="#">Lập trình Android</a></li>
+									<li><a href="#">Lập trình iOS-Swift</a></li>
+									<li><a href="#">Kiểm thử chuyên nghiệp</a></li>
+									<li><a href="#">Lập trình PHP và MySQL</a></li>
+									<li><a href="#">Lập trình Font End-New</a></li>
+									<li><a href="#">Lập trình Java từ A-Z</a></li>
+									<li><a href="#"></a>Lập trình .NET từ A-Z</li>
+									<li><a href="#">Lập trình viên chuyên nghiệp</a></li>
+								</ul>
+							</li>
+							<li><a href="">Cấp tốc</a>
+								<ul id="test_2">
+									<li><a href="#">Lập trình Java-Cấp tốc</a></li>
+								</ul>
+							</li>
+							<li><a href="">Các khóa khác</a>
+								<ul id="test_3">
+									<li><a href="#">Lập trình cơ bản</a></li>
+									<li><a href="#">Thiết kế đồ họa</a></li>
+									<li><a href="#">Thiết kế Web</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li id="display"><a id="right-border" href="#">Đăng kí học</a></li>
+					<li id="display"><a id="right-border" href="#">Việc làm</a></li>
+					<li id="display"><a id="right-border" href="#">iVietTech</a></li>
+					<li id="display"><a id="right-border" href="#">Trang vàng HV</a></li>
+					<li id="display"><a id="right-border" href="#">Blog</a></li>
+					<li id="img"><a href="#"></a><img src="images/search.png" alt=""></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+<!-- 	<div class="container">
+		<div class="banner">
+			<p class="img_banner"></p>
+		</div>
+	</div> -->
+
+	<div class="container">
+		<div class="banner">
+			<img class="slide" src="images/banne/banner.png" alt="Ảnh 1" num="0">
+			<img class="slide" src="images/banne/banner_2.png" alt="Ảnh 2" num="1" style="display: none;">
+
+			<a href="#" id="prev"></a>
+			<a href="#" id="next"></a>
+		</div>
+	</div>	
+
+	<main>
+		<!-- Mở đầu phần Đăng Kí & Chương Trình Đào Tạo -->
+		<section class="dangki_ctdt">
+			<div class="container">
+				
+				<!-- Mở đầu Phần Đăng Kí -->
+				<div class="dangki">
+					<h1><img src="images/logo/logo_dangki.png" alt="">ĐĂNG KÍ HỌC</h1>
+					<form action="#">
+						<input type="text" placeholder="Họ và tên">
+						<input type="text" placeholder="Email">
+						<input type="text" placeholder="Điện thoại">
+
+						<select name="#" id="#">
+							<option value="0">Chọn khóa học</option>
+							<option value="1">Lập trình Android</option>
+							<option value="2">Lập trình iOS-Swift</option>
+							<option value="3">Lập trình PHP và MySQL</option>
+							<option value="4">Lập trình Font End</option>
+							<option value="5">Kiểm thử chuyên nghiệp</option>
+							<option value="6">Lập trình Java từ A-Z</option>
+							<option value="7">Lập trình .Net từ A-Z</option>
+							<option value="8">Lập trình viên chuyên nghiệp</option>
+							<option value="9">-------------------</option>
+							<option value="10">Lập trình cơ bản</option>
+							<option value="11">Lập trình Java-Cấp tốc</option>
+						</select>
+						<textarea name="" id="" cols="25" rows="3" placeholder="Lời nhắn của bạn"></textarea>
+						<button>ĐĂNG KÍ HỌC</button>
+					</form>
+				</div>
+				<!-- Kết thúc Phần Đăng Kí -->
+				
+				<!-- Mở đầu Phàn Chương Trình Đào Tạo -->
+				<div class="ctdt">
+					<h1><img src="images/logo/logo_ctdt.png" alt="">CHƯƠNG TRÌNH ĐÀO TẠO</h1>
+					<div class="course">
+						<img src="images/khoahoc/img_java.jpg" alt="Java Image" height="110px" width="110px">
+						<h3>Lập Trình Android</h3>
+						<p id="text">Thời gian: 4 tháng</p>
+						<p>Suất học: Tối 3-5-7</p>
+					</div>
+					<div class="course">
+						<img src="images/khoahoc/img_fontend.png" alt="PHP & MySQL Image" height="110px" width="110px">
+						<h3>Lập Trình PHP & MySQL</h3>
+						<p>Thời gian: 5 tháng</p>
+						<p>Suất học: Tối 3-5-7</p>
+					</div>
+					<div class="course">
+						<img src="images/khoahoc/img_laptrinh.png" alt="Lập trình viên" height="110px" width="110px">
+						<h3>Lập Trình Java Từ A-Z</h3>
+						<p>Thời gian: 6 tháng</p>
+						<p>Suất học: Tối 2-4-6</p>
+					</div>
+					<div class="course">
+						<img src="images/khoahoc/img_mysql.png" alt="Font End Image" height="110px" width="110px">
+						<h3>Lập Trình Font End- New</h3>
+						<p>Thời gian: 5 tháng</p>
+						<p>Suất học: Tối 2-4-6</p>
+					</div>
+				</div>
+				<!-- Kết thúc Phần Chương Trình Đào Tạo -->
+			</div>	
+		</section>
+		<!-- Kết thúc Phần Đăng kí & Chương Trình Đào Tạo -->
+		
+		<!-- Mở đầu Phần Giới Thiệu - Kết Nối -->
+		<section class="introduce">
+			<div class="container">
+
+				<div class="pict">
+					<img src="images/img_gioithieu.png" alt="Ảnh giới thiệu">
+				</div>
+
+				<div class="gioithieu">
+					<img src="images/img_iviettech.png" alt="">
+					<p class="line"></p>
+					<article>
+						<h1>Giới Thiệu !</h1>
+						<p>Trải qua nhiều năm làm việc trong ngành phần mềm, hiểu được thực trạng nhu cầu nhân lực của ngành, nhóm chuyên gia trong ngành đã thành lập Trung tâm đào tạo Lập trình viên chuyên nghiệp iVietTech với mong muốn thu hẹp khoảng cách giữa nhà trường và doanh nghiệp, tạo cơ hội việc làm cho các bạn trẻ đã, đang và sẽ theo học ngành CNTT.</p>
+						<a href=""><button>Xem thêm</button></a>
+					</article>
+				</div>
+
+				<div class="connect">
+					<h1><img src="images/logo/logo_ketnoi.png" alt="">Kết Nối Với Chúng Tôi</h1>
+					<div class="iviettech-fb">
+						<div class="transbox">
+							<img src="images/logo/logo_fb.png" alt="">
+							<p><span><a href="#">IViettech-Trung tam...</a></span><br>
+							8.547 lượt thích</p>
+						</div>
+					</div>
+					<div class="around">
+						<div class="friend">
+							<p>4 người bạn thích nội dung này</p>
+							<img src="images/friend.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Kết thúc Phần Giới Thiệu - Kết Nối -->
+		
+		<!-- Mở đầu Phần Khai Giảng - Các Khóa Học -->
+		<section class="khaigiang">
+			<div class="container">
+
+				<div class="lich-kg">
+					<div class="tieude">
+						<h1><img src="images/logo/logo_khaigiang.png" alt="">LỊCH KHAI GIẢNG</h1>
+					</div>
+
+					<div class="col-1">
+						<div class="demo">
+							<img src="images/khoahoc/php_mysql.png" alt="">
+							<p>Lập trình web với PHP & MySQL</p>
+							<p>Ngày khai giảng: 03/04/2019</p>
+							<p>Lịch học: Tối 2-4-6</p>
+						</div>
+						<div class="demo">
+							<img src="images/khoahoc/img_java.jpg" alt="" width="60px" height="60px">
+							<p>Lập trình Java từ A-Z</p>
+							<p>Ngày khai giảng: 08/04/2019</p>
+							<p>Lịch học: Tối 2-4-6</p>
+						</div>
+						<div class="demo">
+							<img src="images/khoahoc/android.png" alt="" width="60px" height="60px">
+							<p>Lập trình Android</p>
+							<p>Ngày khai giảng: 26/03/2019</p>
+							<p>Lịch học: Tối 3-5-7</p>
+						</div>
+					</div>
+
+					<div class="col-2">
+						<div class="demo">
+							<img src="images/khoahoc/lap_trinh_vien.png" alt="" width="60px" height="60px">
+							<p>Lập trình viên chuyên nghiệp</p>
+							<p>Ngày khai giảng: 02/04/2019</p>
+							<p>Lịch học: Tối 3-5-7</p>
+						</div>
+						<div class="demo">
+							<img src="images/khoahoc/font_end.png" alt="" width="60px" height="60px">
+							<p>Lập trình Font-End</p>
+							<p>Ngày khai giảng: 16/04/2019</p>
+							<p>Lịch học: Tối 3-5-7</p>
+						</div>
+						<div class="demo">
+							<img src="images/khoahoc/kiem_thu.png" alt="" width="60px" height="60px">
+							<p>Kiểm thử phần mềm</p>
+							<p>Ngày khai giảng: 08/04/2019</p>
+							<p>Lịch học: Tối 2-4-6</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="khoahoc">
+					<div class="tieude">
+						<h1><img src="images/logo/logo_khoahoc.png" alt="">CÁC KHÓA HỌC</h1>
+					</div>
+					<div class="demo">
+						<img src="images/khoahoc/khoahoc1.png" alt="">
+						<p>Thiết kế Web</p>
+						<p>Ngày khai giảng: 08/04/2019</p>
+						<p>Thời gian: 6 tháng</p>
+						<p>Lịch học: Tối 2-4-6</p>
+					</div>
+					<div class="demo">
+						<img src="images/khoahoc/khoahoc2.png" alt="">
+						<p>Lập trình cơ bản</p>
+						<p>Ngày khai giảng: 08/04/2019</p>
+						<p>Thời gian: 1 tháng</p>
+						<p>Lịch học: Tối 2-4-6</p>
+					</div>
+					<div class="demo no-border">
+						<img src="images/khoahoc/khoahoc3.png" alt="">
+						<p>Thiết kế đồ họa</p>
+						<p>Ngày khai giảng: 08/04/2019</p>
+						<p>Thời gian: 6 tháng</p>
+						<p>Lịch học: Tối 2-4-6</p>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- Kết thúc Phần Khai Giảng - Các Khóa Học -->
+
+		<!-- Mở đầu Phần TIN TỨC - SỰ KIỆN  -->
+		<section class="new">
+			<div class="container">
+
+				<div class="event">
+					<div class="dau-muc">
+						<img src="images/logo/logo_tintuc.png" alt="">
+						<h2>Tin Tức & Sự Kiện</h2>
+						<p>Tin Tức Chuyên Ngành</p>
+					</div>
+
+					<!-- Mở đầu Phần Khai Giảng Lớp Android -->
+					<div class="khaigiang_andoid">
+						<div class="tin1">
+							<img src="images/new/tintuc1.png" alt="">
+							<h2>Khai giảng: Lập trình Android AD10 và Lập trình cơ bản BP26</h2>
+							<p id="text-color"><img id="anh1" src="images/clock.png" alt="">Wednesday, 20/03/2019</p>
+							<p>Ngày 19/03/2019 vừa qua, iViettech đã tổ chức khai giảng chung cho 2 lớp Lập trình Android AD10 và Lập trình cơ bản với C BP26 Buổi khai giảng...</p>
+							<button>Xem thêm</button>
+						</div>
+					</div>
+					<!-- Kết thúc Phần Khai Giảng Lớp Android -->
+					
+					<!-- Mở đầu Phần Các Tin Đã Đưa -->
+					<div class="tin_da_dua">
+						<div class="label">
+							<h2>Tin Tức Đã Đưa</h2>
+						</div>
+						<div class="tin2">
+							<img src="images/new/tintuc2.png" alt="">
+							<p><a href="#">Công cụ VisBug, chính chủ Google làm ra-hỗ trợ cực tốt cho Font-End developer</a></p>
+							<p id="align2"><img id="anh1" src="images/clock.png" alt="">Friday, 08/03/2019</p>
+						</div>
+						<div class="tin2">
+							<img src="images/new/tintuc3.png" alt="">
+							<p><a href="#">Kỉ niệm 5 năm thành lập iViettech-Giảm 10% học phí toàn khóa học</a></p>
+							<p id="align2"><img id="anh1" src="images/clock.png" alt="">Friday, 01/03/2019</p>
+						</div>
+					</div>
+					<!-- Kết thúc Phần Các Tin Đã Đưa -->
+
+					<!-- Mở đầu Phần Cảm Nghĩ Học Viên -->
+					<div class="cam_nghi_hoc_vien">
+						<div class="dau-muc">
+							<h2>Học Viên Nói Về Trung Tâm !</h2>
+						</div>
+						<div class="tin1">
+							<img src="images/hoc_vien/hocvien2.png" alt="Ảnh Học Viên">
+							<q>
+								Tốt nghiệp chuyên ngành tài chính ngân hàng, nhưng với niềm đam mê Lập trình và cũng mong muốn có được công việc ổn định, em quyết định đã chọn khóa học Lập trình viên chuyên nghiệp tại iViettech để thay đổi nghề nghiệp của mình. Em xin chân thành cảm ơn thầy Việt, cô Lan và các thầy cô ở trung tâm đã giúp đỡ nhiệt tình trong thời gian em học ở đây. Đặc biệt, em gửi làm cảm ơn chân thành đến thầy Đức Anh đã giúp đỡ nhiệt tình trong thời gian học cùng thầy. Nhờ sự giúp đỡ của thầy cô mà sau khi tốt nghiệp em đã tìm được công việc phù hợp. Chúc thầy cô luôn khỏe mạnh và trung tâm ngày càng phát triển hơn nữa.
+
+								<p>Bạn <span>PHAN THANH HẢI – KHÓA HỌC LẬP TRÌNH VIÊN CHUYÊN NGHIỆP – 016672797XX</span><br>
+								Java Dev - Công ty PM ARCH</p>
+							</q>
+						</div>
+						<div class="anh-hv">
+							<img src="images/hoc_vien/hocvien1.png" alt="học viên 1">
+							<img src="images/hoc_vien/hocvien2.png" alt="học viên 2">
+							<img src="images/hoc_vien/hocvien3.png" alt="học viên 3">
+							<img src="images/hoc_vien/hocvien4.png" alt="học viên 4">
+							<img src="images/hoc_vien/hocvien5.png" alt="học viên 5">
+							<img src="images/hoc_vien/hocvien6.png" alt="học viên 6">
+						</div>
+					</div>
+					<!-- Kết thúc Phần Cảm Nghĩ Học Viên -->
+				</div>
+				<!-- Kết Thúc Phần TTN TỨC - SỰ KIỆN -->
+
+
+				<!-- Mở đầu Phần TUYỂN DỤNG -->
+				<div class="tuyendung">
+					<div class="dau-muc">
+						<img src="images/logo/logo_tintuc.png" alt="">
+						<h2>Tin Tuyển Dụng</h2>
+						<p>Việc Tìm Người - Người Tìm Việc</p>
+					</div>
+
+					<!-- Mở đầu phần Các Công Ty Tuyển Dụng -->
+					<div class="congty">	
+						<div class="tin1">
+							<img src="images/tuyendung/tuyendung1.png" alt="">
+							<p>
+								Công ty: 3S<br>
+								<a href="#">Tuyển dụng số lượng lớn !!!</a><br>
+								<img id="anh1" src="images/clock.png" alt=""><span  id="text-color">Thursday, 21/03/2019</span>
+							</p>
+						</div>
+						<div class="tin1">
+							<img src="images/tuyendung/tuyendung2.png" alt="">
+							<p>
+								Công ty: NEOLAB VIETNAM<br>
+								<a href="#">Hấp dẫn với nhiều vị trí !!!</a><br>
+								<img id="anh1" src="images/clock.png" alt=""><span id="text-color">Thursday, 21/03/2019</span>
+							</p>
+						</div>
+						<div class="tin1">
+							<img src="images/tuyendung/tuyendung3.png" alt="">
+							<p>
+								Công ty: ABBA<br>
+								<a href="#">Tuyển dụng thực tập sinh Android !!!</a><br>
+								<img id="anh1" src="images/clock.png" alt=""><span id="text-color">Thursday, 21/03/2019</span>
+							</p>
+						</div>
+						<div class="tin1">
+							<img src="images/tuyendung/tuyendung4.png" alt="">
+							<p>
+								Công ty: EFE TECHNOLOGY Đà Nẵng<br>
+								<a href="#">TUYỂN DỤNG JUNIOR PHP DEVELOPER (WORDPRESS) !!!</a><br>
+								<img id="anh1" src="images/clock.png" alt=""><span id="text-color">Thursday, 21/03/2019</span>
+							</p>
+						</div>
+						<div class="tin1">
+							<img src="images/tuyendung/tuyendung5.png" alt="">
+							<p>
+								Công ty: Rikkei Soft - Đà Nẵng<br>
+								<a href="#">Nhiều vị trí hấp dẫn đang chờ bạn !!!</a><br>
+								<img id="anh1" src="images/clock.png" alt=""><span id="text-color">Thursday, 21/03/2019</span>
+							</p>
+						</div>
+					</div>
+					<!-- Kết thúc Phần Các Công Ty Tuyển Dụng -->
+
+					<!-- Mở đầu Phần Nhà Tuyển Dụng -->
+					<div class="nha_tuyen_dung">
+						<div class="dau-muc">
+							<img src="images/logo/logo_tintuc.png" alt="">
+							<h2>Nhà Tuyển Dụng</h2>
+						</div>
+						<div class="tin1">
+							<img src="images/nhatuyendung/anh4.png" alt="">
+							<p>
+								<a href="#">CÔNG TY PHẦN MỀM FORMOS</a><br>
+								http://formos.com/ About Formos Founded in 2002, Formos delivers SaaS product development, mobile applications, and process management solutions. We have a ...
+							</p>
+						</div>
+						<div class="tin1">
+							<img src="images/nhatuyendung/anh5.png" alt="">
+							<p>
+								<a href="#">Công ty SKCompany</a><br>
+								ＳＫｃｏｍｐａｎｙ ベトナム là công ty con của công ty SKcompany bên Nhật. http://skcompany.tokyo/ Địa chỉ: Tầng 7 Tòa Nhà Bưu Điện TP ...
+							</p>
+						</div>
+						<div class="tin1">
+							<img src="images/nhatuyendung/anh2.png" alt="">
+							<p>
+								<a href="#">Công ty TNHH MoziaSoft</a><br>
+								Tên công ty Công ty TNHH MoziaSoft Ngày thành lập 9/2016 Địa chỉ SUNRISE BUILDING số 25 đường 2/9 Đà ...
+							</p>
+						</div>
+						<div class="tin1">
+							<img src="images/nhatuyendung/anh1.png" alt="">
+							<p>
+								<a href="#">NavalO Tech</a><br>
+								Email: info@novaio.vn http://novaio.vn Liên hệ: 0905 531 717 (Mr Nhi)/ 0936 796 346 (Ms Oanh). Lô B, Tầng 10, Công ...
+							</p>
+						</div>
+						<div class="tin1">
+							<img src="images/nhatuyendung/anh3.png" alt="">
+							<p>
+								<a href="#">Công ty Blue Otter Corporation-Blue Otter Representative Office in Đà Nẵng</a><br>
+								– Lĩnh vực hoạt động: + Bảo đảm chất lượng phần mềm thông qua kiểm tra manual và tự động ...
+							</p>
+						</div>
+
+					</div>
+					<!-- Kết thúc Phần Nhà Tuyển Dụng -->
+				</div>
+				<!-- Kết thúc Phần TUYỂN DỤNG -->
+				
+			</div>	
+		</section>
+		<!-- Kết thúc Phần TIN TỨC - SỰ KIỆN  -->
+
+	</main>
+
+	<footer>
+		<div class="container">
+			<address>
+				<p>Địa chỉ : 92 Quang Trung, Q. Hải Châu, TP. Đà Nẵng - Điện thoại : 02363 888 279<br>
+				Email : <a href="#"> contact@iviettech.vn</a></p>
+				<div class="foot">
+					<p>Bản quyển thuộc về iVietttech</p>
+				</div>
+			</address>
+			
+		</div>
+	</footer>
+</body>
+</html>
